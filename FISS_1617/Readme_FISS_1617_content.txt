@@ -14,11 +14,11 @@ properly determine the depth of the scatterers or bottom, an array of antennas i
 which will estimate the across-track DoA. After the DoA, and with the range and along-track dimensions, a
 3D space is fully determined, and hence the 3D mapping is possible.
 
-The SAR and DoA products, each matched with a processing-parameter file ('.m'), correspond to the article (yet to be submitted):
-Arenas-Pingarron, A., Corr, H., Robinson, C., Jordan, T., Brennan, P.V.: ‘PASIN2, an Ice-Sounding Airborne Synthetic Aperture Radar for Subglacial 3D Imagery’, IET Radar, Sonar & Navigation.
+The SAR and DoA products, each matched with a processing-parameter file ('.m'), correspond to the article
+Arenas-Pingarrón, Á., Corr, H., Robinson, C., Jordan, T., Brennan, P.V.: Polarimetric airborne scientific instrument, mark 2, an ice-sounding airborne synthetic aperture radar for subglacial 3D imagery. IET Radar Sonar Navig. 1– 14 (2023). https://doi.org/10.1049/rsn2.12428
 
 The SAR and DoA products generated from these parameter files are in netCDF files ('.nc') archived by the UK Polar Data Centre (UK PDC)
--------------- Data DOI to be added --------------
+Arenas Pingarron, A., Corr, H., Jordan, T., Robinson, C., Nicholls, K., & Smith, A. (2023). Airborne synthetic aperture radar ice-sounding depth profiles from Recovery Ice Stream 2016/17, and calibration data from Rothera 2016/17 and 2019/20 (Version 1.0) [Data set]. NERC EDS UK Polar Data Centre. https://doi.org/10.5285/faac4156-047d-47ba-9e31-1a4f766bfdf8
 and are described as:
 
 
@@ -127,7 +127,7 @@ The DoA (Direction of Arrival) products can contain one or two estimated directi
 Each product (SAR and DoA) is paired with the diary file ('.txt') trimmed to the content of interest, and a
 parameter file ('.m', in Matlab language) with the processing parameters. The '.m' file is accessed from GitHub by
 following the external link
------------------ GITHUB LINK TO BE ADDED -----------------
+https://github.com/antarctica/calibration-processing-parameters-PASIN2
 
 The file names contain two numbers related to the first and last trace of the along-track locations. A trace is
 the time interval for measuring the along-track time during the flight. In season 16/17, a trace was 200 milisecons;
